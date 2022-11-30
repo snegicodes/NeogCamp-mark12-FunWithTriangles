@@ -4,10 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Hypotenuse/styles.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/03Hypotenuse/styles.css" />
+    <title>Find Hypotenuse</title>
   </head>
   <body>
-    <script src="/Hypotenuse/hypotenuse.js"></script>
+    <header>
+      <h1>Find Hypotenuse of the Triangle</h1>
+    </header>
+    <section>
+      <label for="base-measure">Enter measure of Base (b): </label>
+      <input type="number" id="base-measure" />
+      <label for="height-measure">Enter measure of Height (h): </label>
+      <input type="number" id="height-measure" />
+      <button id="calc-button">Calculate Hypotenuse</button>
+      <div class="formula">
+        <h2>Hypotenuse formula</h2>
+        <h3>√(height² + base²)</h3>
+      </div>
+      <div id="result-msg">
+        <span>The</span> length of <span>hypotenuse</span> is :
+        <span id="result-hypo">5</span>
+      </div>
+    </section>
+    <footer><h3>Made with ❤️ by snegicodes</h3></footer>
+    <script src="/03Hypotenuse/hypotenuse.js"></script>
   </body>
 </html>

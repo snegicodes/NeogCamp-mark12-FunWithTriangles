@@ -2,6 +2,8 @@
 
 :root{
     --primary : white;
+    --secondary : rgb(2, 113, 211);
+    --colorText : rgb(0, 183, 255);
 }
 
 *{
@@ -20,6 +22,7 @@ header{
     text-align: center;
     margin: 3rem auto 1rem;
     font-size: 1.5rem;
+    color: var(--colorText);
 }
 
 label{
@@ -43,6 +46,7 @@ section{
     font-size: 1.2rem;
     background: #000;
     color: var(--primary);
+    border: 2px solid var(--colorText);
     border-radius: 0.5rem;
     -webkit-border-radius: 0.5rem;
     -moz-border-radius: 0.5rem;
@@ -58,11 +62,12 @@ section{
     cursor: pointer;
     max-width: 40%;
     margin: 1rem auto 1rem;
-    font-weight: bold;
     font-size: 1rem;
     padding: 0.8rem;
     border-radius: 1rem;
-    background-color: var(--primary);
+    color: white;
+    border: 1px solid white;
+    background-color: var(--colorText);
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;

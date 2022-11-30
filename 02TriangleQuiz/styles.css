@@ -2,7 +2,6 @@
 
 :root{
     --primary : white;
-    --secondary : rgb(2, 113, 211);
     --colorText : rgb(0, 183, 255);
 }
 
@@ -46,7 +45,7 @@ section{
 }
 
 .question{
-    border: 1px solid var(--secondary);
+    border: 2px solid var(--colorText);
     border-radius: 1rem;
     margin: 1rem 1rem;
     padding: 2rem;
@@ -69,7 +68,7 @@ section{
     font-size: 1.1rem;
     padding: 1rem 1rem;
     margin: 2rem auto;
-    background: var(--secondary);
+    background: var(--colorText);
     color: white;
     border: 1px solid white;
     border-radius: 1rem;

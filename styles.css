@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+:root{
+    --primary : white;
+    --colorText : rgb(0, 183, 255);
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -12,11 +18,11 @@ body{
 }
 
 header{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: white;
     text-align: center;
-    padding: 1.5rem;
     margin: 1.5rem;
+    padding: 1rem;
 }
 
 .tasks-list{
@@ -35,7 +41,7 @@ header{
     margin: 2.5rem auto;
     padding: 1rem;
     font-size: 1.5rem;
-    border: 1px solid red;
+    border: 1px solid var(--colorText);
     border-radius: 0.5rem;
     width: 50%;
     -webkit-border-radius: 0.5rem;

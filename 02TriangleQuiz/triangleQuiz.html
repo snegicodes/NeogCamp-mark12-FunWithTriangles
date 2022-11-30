@@ -3,11 +3,122 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="/TriangleQuiz/styles.css" />
+    <link rel="stylesheet" href="/02TriangleQuiz/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Triangle Trivia</title>
   </head>
   <body>
-    <script src="/TriangleQuiz/triangleQuiz.js"></script>
+    <header>
+      <h1>
+        The Triangle <br />
+        🤔 Trivia 🤔
+      </h1>
+    </header>
+    <section>
+      <form class="questions">
+        <h2>Questions 💁🏻‍♂️</h2>
+        <div class="question">
+          <p>
+            What is the third angle for the triangle where angle1 = 60° and
+            angle2 = 90°?
+          </p>
+          <div class="answer-opt">
+            <input type="radio" id="ans-1" name="ques-1" value="60" />
+            <label for="ans-1"> 60°</label>
+            <input type="radio" id="ans-2" name="ques-1" value="20" />
+            <label for="ans-2"> 20°</label>
+            <input type="radio" id="ans-3" name="ques-1" value="30" />
+            <label for="ans-3"> 30°</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>
+            What is the third angle for the triangle where angle1 = 80° and
+            angle2 = 90°?
+          </p>
+          <div class="answer-opt">
+            <input type="radio" id="ans-1" name="ques-2" value="10" />
+            <label for="ans-1"> 10°</label>
+            <input type="radio" id="ans-2" name="ques-2" value="20" />
+            <label for="ans-2"> 20°</label>
+            <input type="radio" id="ans-3" name="ques-2" value="30" />
+            <label for="ans-3"> 30°</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>Which of the following cannot form a right angled triangle?</p>
+          <div class="answer-opt">
+            <input type="radio" id="ans-1" name="ques-3" value="3, 4, 5" />
+            <label for="ans-1"> 3, 4, 5</label>
+            <input type="radio" id="ans-2" name="ques-3" value="5, 12, 13" />
+            <label for="ans-2"> 5, 12 ,13</label>
+            <input type="radio" id="ans-3" name="ques-3" value="4, 5, 7" />
+            <label for="ans-3"> 4, 5, 7</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>
+            If one angle of a triangle is obtuse, then which one of the
+            following is the possible measure of remaining angles?
+          </p>
+          <div class="answer-opt">
+            <input type="radio" id="ans-1" name="ques-4" value="60" />
+            <label for="ans-1"> 60°</label>
+            <input type="radio" id="ans-2" name="ques-4" value="110" />
+            <label for="ans-2"> 110°</label>
+            <input type="radio" id="ans-3" name="ques-4" value="90" />
+            <label for="ans-3"> 90°</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>The perimeter of scalene triangle with sides a, b, c is ...</p>
+          <div class="answer-opt">
+            <input type="radio" id="ans-1" name="ques-5" value="a+b+c" />
+            <label for="ans-1"> a+b+c</label>
+            <input type="radio" id="ans-2" name="ques-5" value="a+b" />
+            <label for="ans-2"> a+b</label>
+            <input type="radio" id="ans-3" name="ques-5" value="2abc" />
+            <label for="ans-3"> 2abc</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>How many lines of symmetry does a scalene triangle have ?</p>
+          <div class="answer-opt">
+            <input type="radio" id="ans-1" name="ques-6" value="0" />
+            <label for="ans-1"> 0</label>
+            <input type="radio" id="ans-2" name="ques-6" value="1" />
+            <label for="ans-2"> 1</label>
+            <input type="radio" id="ans-3" name="ques-6" value="2" />
+            <label for="ans-3"> 2</label>
+          </div>
+        </div>
+
+        <div class="question">
+          <p>
+            There is a Isosceles triangle PQR where: angle Q = 100°; angle P =
+            angle R. What is the measure of angles P and R?
+          </p>
+          <div class="answer-opt">
+            <input type="radio" id="ans-1" name="ques-7" value="30" />
+            <label for="ans-1"> 30°</label>
+            <input type="radio" id="ans-2" name="ques-7" value="90" />
+            <label for="ans-2"> 90°</label>
+            <input type="radio" id="ans-3" name="ques-7" value="40" />
+            <label for="ans-3"> 40°</label>
+          </div>
+        </div>
+
+        <button id="submit-btn">Submit Quiz!</button>
+        <div class="result-msg">
+          <p>Your Score is: <span id="result"></span></p>
+        </div>
+      </form>
+    </section>
+    <script src="/02TriangleQuiz/triangleQuiz.js"></script>
   </body>
 </html>

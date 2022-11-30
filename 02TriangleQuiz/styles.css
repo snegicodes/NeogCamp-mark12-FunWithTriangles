@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+:root{
+    --primary : white;
+    --secondary : rgb(2, 113, 211);
+    --colorText : rgb(0, 183, 255);
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    color: var(--primary);
+}
+
+header{
+    text-align: center;
+    margin: 3rem auto 3rem;
+    font-size: 1.5rem;
+    color: var(--colorText);
+}
+
+section{
+    text-align: center;
+}
+
+.questions{
+    border: 2px solid white;
+    padding: 0.1rem;
+    margin: 1rem 3rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.questions h2{
+    margin: 1rem auto;
+    font-size: 2rem;
+}
+
+.question{
+    border: 1px solid var(--secondary);
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+    padding: 2rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.question p{
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.question label{
+    font-size: 1.1rem;
+    padding-right: 1.2rem;
+}
+#submit-btn{
+    font-size: 1.1rem;
+    padding: 1rem 1rem;
+    margin: 2rem auto;
+    background: var(--secondary);
+    color: white;
+    border: 1px solid white;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.result-msg{
+    display: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0rem auto 3rem;
+}
+
+.result-msg span{
+    color: var(--colorText);
+}

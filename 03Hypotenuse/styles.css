@@ -60,6 +60,7 @@ section input:focus{
 }
 
 section #calc-button{
+    cursor: pointer;
     max-width: 50%;
     margin: 2rem auto 1rem;
     background-color: var(--colorText);

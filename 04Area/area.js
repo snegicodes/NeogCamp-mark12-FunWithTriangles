@@ -12,6 +12,9 @@ areaBtn.addEventListener("click", (e) => {
   const thirdSideValue = Number(thirdSide.value);
 
   if (
+    firstSideValue > 0 &&
+    secondSideValue > 0 &&
+    thirdSideValue > 0 &&
     firstSideValue + secondSideValue > thirdSideValue &&
     secondSideValue + thirdSideValue > firstSideValue &&
     firstSideValue + thirdSideValue > secondSideValue
